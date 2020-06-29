@@ -1,0 +1,456 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.user{
+    float:right;
+}
+.heading_img{
+    height: 519px;
+    background: url("../images/青花瓷.png") repeat;
+}
+.heading{
+    margin: 0 auto;
+    width: 750px;
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 0px;
+}
+.heading .heading_log{
+    flaot:left;
+    width:17.15%;
+    padding-top: 0px;
+    padding-left: 0px;
+
+}
+.heading .heading_log img{
+    float: left;
+    width: 90%;
+    padding-left: 15px;
+}
+.heading .heading_nav{
+    width: 42.21%;
+    height: 100px;
+    float:left;
+
+}
+.heading .heading_nav ul{
+    width:100%;
+    float: left;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+.heading .heading_nav ul li{
+    width: 25%;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    list-style-type: none;
+}
+.heading_nav a:link,a:visited{
+    color: #252525;
+    text-align: center;
+    text-decoration: none;
+    font-family: 方正青刻本悦宋简体;
+    font-size: 20px;
+}
+.heading_nav a:hover,a:active{
+    color: #d40000;
+}
+.heading .search{
+    float: right;
+    display: inline;
+    width: 280px;
+    height: 35px;
+    padding-top: 35px;
+
+}
+.heading .search_input{
+    width: 88%;
+    float: left;
+    display: inline;
+    padding-top: 10px;
+    border-radius: 20px;
+    border-color: rgba(181,13,8,0.76);
+    margin-top: -16px;
+}
+.heading .search_btn{
+    display: inline;
+    width: 25px;
+    height: 26px;
+    background: url("../images/Sousuo.png") left center no-repeat;
+    float: right;
+    border:0px;
+    margin-top: -28px;
+    margin-right: 45px;
+
+}
+.heading .heading_nav ul .h{
+    color: rgba(173,24,12,0.97);
+}
+.shouyiren{
+    margin: 0 auto;
+    width: 250px;
+    height: 57px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.kuang_left{
+    float: left;
+    width: 25px;
+    height: 31.5px;
+    margin-top: 18px;
+    border-left: 2px solid rgba(153,13,8,0.97);
+    border-bottom: 2px solid rgba(153,13,8,0.97);
+}
+.kuang_right{
+    float: right;
+    width: 25px;
+    height: 31.5px;
+    margin-top: -20px;
+    border-right: 2px solid rgba(153,13,8,0.97);
+    border-bottom: 2px solid rgba(153,13,8,0.97);
+}
+.shouyiren_text{
+    float: left;
+    width: 145px;
+    margin: 2px auto;
+    padding-left: 27.5px;
+}
+.shouyiren_text p{
+    margin: 0 auto;
+    font-size: 25px;
+}
+.shouyiren_kuang{
+    float: left;
+    width: 103.625px;
+    height: 12.5px;
+    margin-left: 48.4375px;
+}
+.kuang_buttom_left{
+    float: left;
+    width: 16.25px;
+    height: 12.5px;
+    border-bottom: 2px solid rgba(153,13,8,0.97);
+    margin-left: 0;
+    margin-top: -2px;
+}
+.kuang_buttom_right{
+    float: left;
+    width: 16.25px;
+    height: 12.5px;
+    border-bottom: 2px solid rgba(153,13,8,0.97);
+    /* margin-left: -45px; */
+    margin-top: -2px;
+}
+.kuang_text_English{
+    float: left;
+    width: 65px;
+}
+.kuang_text_English p{
+    margin: 0 auto;
+    font-size: 10px;
+}
+#tupian{
+    width: 750px;
+    height:312.5px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#tupian>ul>li{
+    background-color: white;
+    float: left;
+    list-style-type: none;
+    position: absolute;
+}
+.tupianImg{
+    float:left;
+    background:0 0 no-repeat;
+    width: 100%;
+    height: 80%;
+}
+.tupian_text{
+    float: left;
+    width: 748px;
+    height: 60.5px;
+    border: 1px solid rgba(112,112,112,0.97);
+    text-align: left;
+}
+.tupian_text p{
+    font-size: 10px;
+    font-style: italic;
+}
+#tupian>ul>li:nth-child(1){
+    /*background: url("../images/竹编.png");*/
+    /*background-color: orange;*/
+    width: 228px;
+    height: 210px;
+    top:50px;
+    left:-228px;
+    opacity: 0.4;
+    z-index: 497;
+}
+#tupian>ul>li:nth-child(2){
+    /*background: url("../images/锡艺.png");*/
+    /*background-color: red;*/
+    top:40px;
+    width: 260px;
+    height: 245px;
+    z-index: 498;
+    opacity: 0.6;
+}
+#tupian>ul>li:nth-child(3){
+    /*background: url("../images/泽雅屏纸.jpg");*/
+    /*background-color: blue;*/
+    top:15px;
+    width: 292px;
+    height: 281px;
+    left: 106px;
+    z-index: 499;
+    opacity: 0.8;
+}
+#tupian>ul>li:nth-child(4){
+    /*background: url("../images/织造.png");*/
+    /*background-color: green;*/
+    width: 326px;
+    height: 312px;
+    left: 212px;
+    z-index: 500;
+    opacity: 1;
+}
+#tupian>ul>li:nth-child(5){
+    /*background: url("../images/纸伞.jpg");*/
+    /*background-color: yellow;*/
+    top:15px;
+    width: 292px;
+    height: 281px;
+    right: 106px;
+    z-index: 499;
+    opacity: 0.8;
+}
+#tupian>ul>li:nth-child(6){
+    /*background: url("../images/竹编.png");*/
+    /*background-color: gray;*/
+    top:40px;
+    width: 260px;
+    height: 245px;
+    right: 0px;
+    z-index: 498;
+    opacity: 0.6;
+}
+#tupian>ul>li:nth-child(7){
+    /*background: url("../images/竹编.png");*/
+    /*background-color: purple;*/
+    width: 228px;
+    height: 210px;
+    top:50px;
+    left: 750px;
+    opacity: 0.4;
+    z-index: 497;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.competition_text{
+    float: left;
+    width: 194.375px;
+    margin: 2px auto;
+    padding-left: 5.625px;
+}
+.competition_text p{
+    margin: 0 auto;
+    font-size: 25px;
+}
+.competition_content{
+    width:750px;
+    margin: 0 auto;
+    height: 526px;
+}
+.competition_img{
+    width: 750px;
+    height: 250px;
+}
+.competition_img p{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.competition_img hr{
+    float: left;
+    width: 750px;
+    border: 1px dashed rgba(153,13,8,0.97);
+    margin: 0px;
+}
+.competition_retrospect{
+    width: 750px;
+    height: 36px;
+}
+.competition_retrospect p{
+    width: 750px;
+    float: left;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.competition_retrospect_img{
+    float: left;
+    width: 750px;
+    height: 240px;
+}
+.competition1{
+    float: left;
+    width: 225px;
+    height: 185px;
+    margin:0px 37.5px 0px 0px;
+}
+.competition1_img{
+    float: left;
+    width: 225px;
+    height: 150px;
+}
+.competition1_text{
+    float: left;
+    width: 225px;
+    height: 35px;
+    border: 1px solid rgba(112,112,112,0.97);
+}
+.competition1_text .qian{
+    float: left;
+    width: 100px;
+    text-align: left;
+    margin: 7px 0px 1px 10px;
+    font-size: 12px;
+    color: rgba(29,29,29,0.97);
+}
+.competition1_text .hou{
+    float: right;
+    width: 75px;
+    text-align: right;
+    margin: 7px 10px 1px 0px;
+    font-size: 7px;
+    color: rgba(112,112,112,0.97);
+}
+.competition3{
+    float: right;
+    width: 225px;
+    height: 185px;
+    margin:0px;
+}
+.more{
+    float: left;
+    text-align: center;
+    font-size: 7px;
+    width: 750px;
+    margin: 22.5px 0px;
+}
+.more p{
+    margin: 0px;
+
+}
+.more a:link,a:visited{
+    color: rgba(112,112,112,0.97);
+    text-decoration: none;
+    font-family: 方正青刻本悦宋简体;
+    font-size: 7px;
+}
+.more a:hover,a:active{
+    color: #d40000;
+}
+.news_content{
+    width: 750px;
+    height: 750px;
+    margin: 0 auto;
+}
+.news1{
+    width: 750px;
+    height: 225px;
+    float: left;
+    margin: 0px 0px 20px 0px;
+}
+.news1_img{
+    float: left;
+    width: 500px;
+    height: 225px;
+}
+.news1_text{
+    width: 248px;
+    height: 223px;
+    float: left;
+    line-height: 25px;
+    border: 1px solid rgba(112,112,112,0.97);
+}
+.news1_text p{
+    text-align: left;
+    margin: 25px;
+    width: 200px;
+    height: 200px;
+    color: rgba(112,112,112,0.97);
+}
+.news3{
+    width: 750px;
+    height: 225px;
+    float: left;
+    margin: 0px;
+}
+.course_content{
+    width:750px;
+    height: 337.5px;
+    margin: 0 auto;
+}
+.course1{
+    width: 350px;
+    height: 337.5px;
+    float: left;
+}
+.course1_img{
+    width: 350px;
+    height: 275px;
+    float: left;
+}
+.course1_text{
+    width: 348px;
+    height: 60.5px;
+    border: 1px solid rgba(112,112,112,0.97);
+    float: left;
+}
+.course2{
+    float: right;
+    width: 375px;
+    height: 150px;
+    margin-bottom: 18.75px;
+}
+.course2_img{
+    width: 375px;
+    height: 112.5px;
+    float: left;
+}
+.course2_text{
+    width: 373px;
+    height: 35.5px;
+    border: 1px solid rgba(112,112,112,0.97);
+    float: left;
+}
+.course3{
+    float: right;
+    width: 375px;
+    height: 150px;
+    margin-top: 18.75px;
+}
+.foot{
+    width: 1200px;
+    height: 240px;
+    color: rgba(223,223,223,0.97) ;
+}
